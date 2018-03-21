@@ -1,0 +1,39 @@
+<dbconfig>
+	<connection name="main">
+                <type value="C3P0" />
+                <host value="120.76.188.16" />
+                <port value="3306" />
+                <user value="root" />
+                <password value="MyK@21060606" />
+                <db value="miaoyan_myserver_dev" />
+                <maxPoolSize value="100" />
+                <maxConnectionAge value="14400" />
+                <minPoolSize value="5" />
+                <acquireIncrement value="3" />
+                <idleConnectionTestPeriod value="60" />
+                <acquireRetryAttempts value="2" />
+                <acquireRetryDelay value="1000" />
+                <maxIdleTimeExcessConnections value="60" />
+                <preferredTestQuery value="select now()" />
+                <numHelperThreads value="5"/>
+        </connection>
+        
+        <connection name="main-b">
+                <type value="C3P0" />
+                <host value="120.76.188.16" />
+                <port value="3306" />
+                <user value="root" />
+                <password value="MyK@21060606" />
+                <db value="miaoyan_myserver_dev" />
+                <maxPoolSize value="100" />
+                <maxConnectionAge value="14400" />
+                <minPoolSize value="5" />
+                <acquireIncrement value="3" />
+                <idleConnectionTestPeriod value="60" />
+                <acquireRetryAttempts value="2" />
+                <acquireRetryDelay value="1000" />
+                <maxIdleTimeExcessConnections value="60" />
+                <preferredTestQuery value="select now()" />
+                <numHelperThreads value="5"/>
+        </connection>
+</dbconfig>

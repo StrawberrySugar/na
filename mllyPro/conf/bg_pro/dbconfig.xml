@@ -1,0 +1,120 @@
+<dbconfig>
+	<connection name="main-statistic">
+                <type value="C3P0" />
+                <host value="10.9.89.138" />
+                <port value="3306" />
+                <user value="root" />
+                <password value="gd89af834xvv1" />
+                <db value="statistic" />
+                <maxPoolSize value="100" />
+                <maxConnectionAge value="14400" />
+                <minPoolSize value="5" />
+                <acquireIncrement value="3" />
+                <idleConnectionTestPeriod value="60" />
+                <acquireRetryAttempts value="2" />
+                <acquireRetryDelay value="1000" />
+                <maxIdleTimeExcessConnections value="60" />
+                <preferredTestQuery value="select now()" />
+                <numHelperThreads value="5"/>
+        </connection>
+        
+        <connection name="main-statistic-b">
+                <type value="C3P0" />
+                <host value="10.9.89.138" />
+                <port value="3306" />
+                <user value="readonly" />
+                <password value="read123" />
+                <db value="statistic" />
+                <maxPoolSize value="100" />
+                <maxConnectionAge value="14400" />
+                <minPoolSize value="5" />
+                <acquireIncrement value="3" />
+                <idleConnectionTestPeriod value="60" />
+                <acquireRetryAttempts value="2" />
+                <acquireRetryDelay value="1000" />
+                <maxIdleTimeExcessConnections value="60" />
+                <preferredTestQuery value="select now()" />
+                <numHelperThreads value="5"/>
+        </connection>
+        
+        	<connection name="main">
+                <type value="C3P0" />
+                <host value="10.9.89.138" />
+                <port value="3306" />
+                <user value="root" />
+                <password value="gd89af834xvv1" />
+                <db value="cdt" />
+                <maxPoolSize value="100" />
+                <maxConnectionAge value="14400" />
+                <minPoolSize value="5" />
+                <acquireIncrement value="3" />
+                <idleConnectionTestPeriod value="60" />
+                <acquireRetryAttempts value="2" />
+                <acquireRetryDelay value="1000" />
+                <maxIdleTimeExcessConnections value="60" />
+                <preferredTestQuery value="select now()" />
+                <numHelperThreads value="5"/>
+        </connection>
+        
+        <connection name="main-b">
+                <type value="C3P0" />
+                <host value="10.9.89.138" />
+                <port value="3306" />
+                <user value="readonly" />
+                <password value="read123" />
+                <db value="cdt" />
+                <maxPoolSize value="100" />
+                <maxConnectionAge value="14400" />
+                <minPoolSize value="5" />
+                <acquireIncrement value="3" />
+                <idleConnectionTestPeriod value="60" />
+                <acquireRetryAttempts value="2" />
+                <acquireRetryDelay value="1000" />
+                <maxIdleTimeExcessConnections value="60" />
+                <preferredTestQuery value="select now()" />
+                <numHelperThreads value="5"/>
+        </connection>    	
+        
+        
+        
+        <connection name="cdt-main">
+                <type value="C3P0" />
+                <host value="10.9.89.138" />
+                <port value="3306" />
+                <user value="root" />
+                <password value="gd89af834xvv1" />
+                <db value="cdt" />
+                <maxPoolSize value="100" />
+                <maxConnectionAge value="14400" />
+                <minPoolSize value="5" />
+                <acquireIncrement value="3" />
+                <idleConnectionTestPeriod value="60" />
+                <acquireRetryAttempts value="2" />
+                <acquireRetryDelay value="1000" />
+                <maxIdleTimeExcessConnections value="60" />
+                <preferredTestQuery value="select now()" />
+                <numHelperThreads value="5"/>
+        </connection>
+        
+        <connection name="cdt-main-b">
+                <type value="C3P0" />
+                <host value="10.9.89.138" />
+                <port value="3306" />
+                <user value="readonly" />
+                <password value="read123" />
+                <db value="cdt" />
+                <maxPoolSize value="100" />
+                <maxConnectionAge value="14400" />
+                <minPoolSize value="5" />
+                <acquireIncrement value="3" />
+                <idleConnectionTestPeriod value="60" />
+                <acquireRetryAttempts value="2" />
+                <acquireRetryDelay value="1000" />
+                <maxIdleTimeExcessConnections value="60" />
+                <preferredTestQuery value="select now()" />
+                <numHelperThreads value="5"/>
+        </connection>
+        
+        
+        
+</dbconfig>
