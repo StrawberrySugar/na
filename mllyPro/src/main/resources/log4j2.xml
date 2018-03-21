@@ -2,7 +2,7 @@
 <Configuration status="WARN" monitorInterval="300">
 	<properties>
 		<property name="LOG_HOME">D:/logs</property>
-		<property name="FILE_NAME">caifuniu</property>
+		<property name="FILE_NAME">Mlly</property>
 	</properties>
 	<!-- 先定义所有的appender -->
 	<appenders>
