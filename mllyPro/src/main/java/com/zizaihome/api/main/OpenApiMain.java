@@ -97,9 +97,9 @@ public class OpenApiMain {
 			// comp.getDefaultHost().attach(versionPrefix, signFilter);
 
 		
-			UsersApplication usersApplication=new UsersApplication();
-			comp.getDefaultHost().attach("/common",usersApplication);
-			
+//			UsersApplication usersApplication=new UsersApplication();
+//			comp.getDefaultHost().attach("/common",usersApplication);
+//			
 			
 			// 设置jetty
 			comp.getContext().getParameters().add("type", "1");// NIO
