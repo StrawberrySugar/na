@@ -18,6 +18,15 @@ public class UserModel extends BaseModel{
 	private String count="";
 	private String headImg="";
 	private int type=0;
+	private int schCardNum=0;
+	private String cardImg="";
+	private String name="";
+	private String phone="";
+	private int floorNum=0;
+	private String className="";
+	private String major="";
+	private String details="";
+	private String returnDetails="";
 	
 	@Override
 	public BaseModel getModelByRs(ResultSet rs) {
@@ -32,6 +41,15 @@ public class UserModel extends BaseModel{
 			this.count=rs.getString("count");
 			this.headImg=rs.getString("headImg");
 			this.type=rs.getInt("type");
+			this.schCardNum=rs.getInt("schCardNum");
+			this.cardImg=rs.getString("cardImg");
+			this.name=rs.getString("name");
+			this.phone=rs.getString("phone");
+			this.floorNum=rs.getInt("floorNum");
+			this.className=rs.getString("className");
+			this.major=rs.getString("major");
+			this.details=rs.getString("details");
+			this.returnDetails=rs.getString("returnDetails");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -116,6 +134,79 @@ public class UserModel extends BaseModel{
 
 	public void setType(int type) {
 		this.type = type;
+	}
+
+	public int getSchCardNum() {
+		return schCardNum;
+	}
+
+	public void setSchCardNum(int schCardNum) {
+		this.schCardNum = schCardNum;
+	}
+
+	public String getCardImg() {
+		return cardImg;
+	}
+
+	public void setCardImg(String cardImg) {
+		this.cardImg = cardImg;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public int getFloorNum() {
+		return floorNum;
+	}
+
+	public void setFloorNum(int floorNum) {
+		this.floorNum = floorNum;
+	}
+
+
+	public String getClassName() {
+		return className;
+	}
+
+	public void setClassName(String className) {
+		this.className = className;
+	}
+
+	public String getMajor() {
+		return major;
+	}
+
+	public void setMajor(String major) {
+		this.major = major;
+	}
+
+	public String getDetails() {
+		return details;
+	}
+
+	public void setDetails(String details) {
+		this.details = details;
+	}
+
+	public String getReturnDetails() {
+		return returnDetails;
+	}
+
+	public void setReturnDetails(String returnDetails) {
+		this.returnDetails = returnDetails;
 	}
 	
 	
