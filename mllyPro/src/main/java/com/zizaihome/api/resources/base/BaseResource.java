@@ -27,6 +27,7 @@ import org.restlet.util.Series;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.ibm.icu.text.SimpleDateFormat;
 import com.zizaihome.api.common.Constants;
 import com.zizaihome.api.common.utils.GetObjectUtils;
 import com.zizaihome.api.utils.ConfigReadUtils;
@@ -60,6 +61,7 @@ protected static final Logger log = LoggerFactory.getLogger("stdout");
 	protected String requestPath;
 	protected String realip;
 	protected Request request;
+	protected SimpleDateFormat dateFormat =new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
 	protected BaseResource()
 	{
